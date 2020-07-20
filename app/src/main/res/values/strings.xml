@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Memo App</string>
+    <string name="title_activity_target">TargetActivity</string>
+    <string name="title_activity_task">TaskActivity</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="title_activity_shopping">ShoppingActivity</string>
+    <string name="title_activity_reminder">ReminderActivity</string>
+    <string name="title_activity_private">PrivateActivity</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.industrialmaster.memoapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img6"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".TravelledPlacesActivity"
+            android:label="TravelledPlacesActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".TravelledPlacesAddActivity" android:label="Add New Travelled City" />
+        <activity
+            android:name=".ReminderActivity"
+            android:label="@string/title_activity_reminder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReminderAddActivity"
+            android:label="Add New Event" />
+        <activity
+            android:name=".ShoppingActivity"
+            android:label="@string/title_activity_shopping"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShoppingAddActivity"
+            android:label="Add New Grocery List" />
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".StudyActivity"
+            android:label="Study Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudyAddActivity"
+            android:label="Add New Note" />
+        <activity
+            android:name=".DailyActivity"
+            android:label="Daily Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DailyAddActivity"
+            android:label="Add New Task" />
+        <activity
+            android:name=".IdeaActivity"
+            android:label="Idea Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IdeaAddActivity"
+            android:label="Add New Idea" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

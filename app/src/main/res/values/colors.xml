@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
+    <color name="deviderColor">#BDBDBD</color>
+    <color name="secondaryText">#757575</color>
+    <color name="primaryText">#212121</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="textColor">#FCFCFC</color>
+
+    <color name="mainColor">#558B2F</color>
+    <color name="medicinaltextColor">#1B5E20</color>
+    <color name="medicinalbackgroundColor">#CCFF90</color>
+</resources>
